@@ -1,0 +1,33 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 20px 10px rgba(18, 18, 43, 0.5);
+  max-width: 50rem;
+  padding: 5px 10px;
+}
+
+.image {
+  height: 220px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+.title,
+.description {
+  border: 2px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  color: #555555;
+}
+
+.description {
+  color: #211e2f;
+}
